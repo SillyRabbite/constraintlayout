@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:background="@color/design_default_color_primary"
+        android:text="hahhah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        app:layout_constraintCircle="@+id/textView"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="45"
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/design_default_color_primary"
+        android:text="heihei"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        app:layout_constraintCircle="@+id/textView"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="135"
+        android:id="@+id/textView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/design_default_color_primary"
+        android:text="heihei"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        app:layout_constraintCircle="@+id/textView"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="225"
+        android:id="@+id/textView4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/design_default_color_primary"
+        android:text="heihei"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        app:layout_constraintCircle="@+id/textView"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="315"
+        android:id="@+id/textView5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/design_default_color_primary"
+        android:text="heihei"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
